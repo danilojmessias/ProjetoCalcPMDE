@@ -1,6 +1,7 @@
 import 'button.dart';
 import 'package:flutter/material.dart';
 
+//classe onde crio o modelo de linha de botoes
 class ButtonRow extends StatelessWidget {
   final List<Button> buttons;
   const ButtonRow({super.key, required this.buttons});

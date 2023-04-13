@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// onde crio o modelo dos botoes
 class Button extends StatelessWidget {
   static const Color OPERATOR = Color.fromARGB(255, 234, 167, 192);
 
@@ -15,6 +16,7 @@ class Button extends StatelessWidget {
     this.color = const Color(0xffffc8dd),
     required this.callback,
   });
+  // para mudar de cor quando for operador
   const Button.operator({
     super.key,
     required this.text,

@@ -2,10 +2,11 @@ import 'package:flutter/material.dart';
 import 'button.dart';
 import 'button_row.dart';
 
+//onde crio o teclado
 class Keyboard extends StatelessWidget {
   final void Function(String) callback;
   Keyboard(this.callback);
-
+//essa função retorna o valor do text do botao
   @override
   Widget build(BuildContext context) {
     return SizedBox(

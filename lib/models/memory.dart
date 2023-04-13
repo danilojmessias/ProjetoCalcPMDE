@@ -1,4 +1,5 @@
 class Memory {
+  // onde se grava as memorias das operações
   static const operations = [
     '÷',
     'x',

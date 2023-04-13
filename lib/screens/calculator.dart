@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import '../components/display.dart';
 import '../components/keyboard.dart';
 
+// onde calculo
 class Calculator extends StatefulWidget {
   const Calculator({super.key});
 
@@ -22,6 +23,7 @@ class _CalculatorState extends State<Calculator> {
 
   @override
   Widget build(BuildContext context) {
+    // para não mudar o layout quando mudar orientação
     SystemChrome.setPreferredOrientations(
       [DeviceOrientation.portraitUp],
     );
